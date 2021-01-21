@@ -1,10 +1,5 @@
 FROM nginx:latest
 
-LABEL   maintainer="Adem Kikaj" \
-        name="DemoWebGit" \
-        version="0.1"
-
-
 ENV CONTAINER_HOME=/usr/share/nginx/html
 
 WORKDIR $CONTAINER_HOME
