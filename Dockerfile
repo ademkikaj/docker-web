@@ -4,7 +4,6 @@ LABEL   maintainer="Adem Kikaj" \
         name="DemoWebGit" \
         version="1.0"
 
-
 ENV CONTAINER_HOME=/usr/share/nginx/html
 
 WORKDIR $CONTAINER_HOME
