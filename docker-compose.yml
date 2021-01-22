@@ -1,4 +1,3 @@
 services:
   ohmyweb:
-    build: .
-    
+    build: ./Add
